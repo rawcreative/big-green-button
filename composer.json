@@ -25,10 +25,7 @@
 		}
 	},
 	"extra": {
-		"component": "plugin",
-		"branch-alias": {
-			"dev-master": "2.0.x-dev"
-		}
-	},
+		"component": "plugin"
+		},
 	"minimum-stability": "dev"
 }
