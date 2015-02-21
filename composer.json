@@ -16,10 +16,7 @@
 		
 	},
 	"autoload": {
-		"classmap": [
-			"database/migrations",
-			"database/seeds"
-		],
+		
 		"psr-4": {
 			"FPP\\BigGreenButton\\" : "src/"
 		}
