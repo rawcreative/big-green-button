@@ -6,6 +6,12 @@ use Illuminate\Support\ServiceProvider;
 
 class BigGreenButtonProvider extends ServiceProvider {
 
+    public function boot()
+    {
+        \Menu::get('content')->add('Big Green Button', 'plugins/big-green-button');
+    }
+
+
     /**
      * Register the service provider.
      *
